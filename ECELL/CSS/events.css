@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Roboto+Slab&display=swap');
+
+.events{
+    padding: 50px 0px 50px 0px;
+}
+
+.card-img-top{
+    width: 100%;
+}
+.events-header{
+    font-size: 60px;
+    font-family: 'Robota Slab';
+    color: #fff;
+}
+
+.events-para{
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Assistant';
+}
+
+.events-text{
+    margin-top: 50px;
+}
+
+.events-cards{
+    margin-top: 50px;
+    color: #fff;
+    padding: 20px;
+}

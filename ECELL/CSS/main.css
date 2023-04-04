@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+
+body{
+    background-color: #000505;
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: #000505;
+    border-bottom: #405cf5 solid 3px;
+}
+
+.navbar-nav{
+    margin-right: 40px;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.navbar-brand img{
+    height: 80px;
+    width: 80 px;
+    color: #fff;
+}
+
+.dropdown-item{
+    font-family: "Roboto";
+}
+
+.nav-item{
+    padding: 10px 0px 10px 0px;
+    justify-content: end;
+    padding: 0px 20px 0px 20px;
+}
+.navlink{
+    font-family: 'Roboto';
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.navlink:hover{
+    color: #405cf5;
+}
+
+.dropdown-menu{
+    background-color: #405cf5;
+}
+
+.dropdown-item{
+    color: #fff;
+}
+
+/*Banner*/
+
+.banner-row{
+    padding: 50px 0px 0px 0px;
+}
+.img-banner{
+    height: 500px;
+}
+
+.banner-text{
+    padding: 0px 20px 20px 80px;
+}
+.banner-header{
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    font-family: "Roboto Slab";
+}
+.banner-para{
+    color: white;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.banner{
+    background-color: #000505;
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px 20px 20px;
+}
+
+.headerImgFluid{
+    margin-top: 50px;
+    width: 100%;
+    height: 80%;
+}
+#circleVector{
+    animation: xMove 1s ease infinite alternate;
+}
+@keyframes xMove{
+    from{
+        transform: translateX(0px)
+    }
+    to{
+        transform: translateX(20px)
+    }
+}
+
+
+
+.KnowButton{
+  font-family: "Roboto" ;
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 150px;
+  margin-top: 20px;
+
+}
+
+.KnowButton:hover{
+    background-color: #000505;
+    border: #405cf5 2px solid;
+    color: #405cf5;
+}
+
+.imageHolder{
+    height: 80vh;
+    margin-top: -20px;
+}
+
+/*Who We Are*/
+
+.who-we-are{
+    background-color: #000505;
+}
+
+.who-are-we-header{
+    color: white;
+    font-weight: 400;
+    font-size: 55px;
+    font-family: "Kanit";
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.who-are-we-para{
+    padding-top: 40px;
+    font-family: "Roboto";
+    color: #fff;
+    padding-right: 40px;
+}
+
+.who-we-are-text{
+    background-color: #1C1C1C ;
+    padding: 20px 20px 20px 80px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.who-we-are-row{
+    padding: 50px 20px 20px 80px;
+}
+
+.counter{
+    color: #405cf5;
+}
+
+.members-counter-para{
+    color: #405cf5;
+}
+
+.who-we-are-counter{
+    margin-top: 80px;
+}
+
+.who-are-we-members-counter{
+    background-color: #1C1C1C ;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/*WHAT WE DO*/
+.wwd{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.wwd-card{
+    margin-top: 50px;
+}
+
+.card{
+    background-color: #1C1C1C;
+    border-radius: 20px;
+}
+
+.card-img-top{
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+}
+/*WHAT WE DO*/
+
+.footer{
+    background-color: #1C1C1C;
+}
+
+
+.what-say div h1{
+    color: white;
+}
+
+.what-say div p{
+    color: white;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #405cf5;
+}
+
+/* SOCIAL FOOTER*/
+
+.social-links{
+    margin-top: 80px;
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+    filter: grayscale(1) brightness(0.5);
+}
+
+.social-links:hover{
+    filter: none;
+}
+
+.contact-options{
+    color: gray;
+}
+
+
+.contact-options p{
+    margin-top: 20px;
+}
+
+.footer{
+    border-top: #405cf5 3px solid;
+    margin-top: 50px;
+    padding: 100px 50px 100px 50px;
+}
+
